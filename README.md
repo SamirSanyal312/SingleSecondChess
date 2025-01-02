@@ -53,27 +53,22 @@ Copy code
 single_second_chess.py   # Main script for the chess bot
 README.md                # Project documentation
 Example Walkthrough
-Input:
-
-bash
+Input
+plaintext
 Copy code
 rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
 This FEN string represents the starting position of a chess game.
-Processing:
-
+Processing
 The bot evaluates all possible moves.
 It selects the move with the highest material advantage.
-Output:
-
+Output
+plaintext
 Copy code
 e2e4
 Customization
-Improve Evaluation:
-Add heuristics for positional play, mobility, and king safety.
-Advanced Algorithms:
-Implement Minimax or Alpha-Beta Pruning for deeper game tree analysis.
-Performance:
-Optimize code for speed to meet computational limits.
+Improve Evaluation: Add heuristics for positional play, mobility, and king safety.
+Advanced Algorithms: Implement Minimax or Alpha-Beta Pruning for deeper game tree analysis.
+Performance: Optimize code for speed to meet computational limits.
 Limitations
 The bot currently uses a greedy approach, evaluating one move at a time.
 Advanced strategies and deeper evaluations are constrained by computational limits.
